@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Project: Event invite</title>
+    <style>
+
+        * {
+            font-family: cursive;
+        }
+
+        div, table{
+            background-color: rgb(222, 180, 222);
+        }
+        .header {
+            text-align: center;
+            color: orange;
+            background-color: #ff12;
+        }
+        .details {
+            color: green;
+            font-size: 25px;
+        }
+        #table-headers {
+            font-size: 18px;
+            text-align: center;
+            color: orange;
+        }
+        table {
+            border: solid 2px blue;
+            border-radius: 10px;
+            padding: 5px;
+            color: green;
+            float: left;
+        }
+        #heart-picture {
+            position: absolute;
+            top: 130px;
+            right: 100px;
+            cursor: pointer;
+        }
+
+        #heart-picture:hover {
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1 class="header">You're invited!</h1>
+<h2 class="header">To a party!</h2>
+
+<div>
+    <p><strong class="details">The details:</strong></p>
+    <ul>
+        <li>
+            <table>
+                <thead>
+                    <tr id="table-headers">
+                        <th>Time</th>
+                        <th>Place</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>12pm</td>
+                    <td>Anticafe Friends</td>
+                    <td>3 hours</td>
+                </tr>
+            </table>
+        </li>
+    </ul>
+
+    <a target="_blank" href="https://2gis.kz/astana/firm/70000001075303975"><img id="heart-picture" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/cute/Heart.png" alt="heart"></a>
+</div>
+
+</body>
+</html>
