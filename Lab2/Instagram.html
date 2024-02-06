@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+
+        #main-div {
+            font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            width: 100%;
+            height: 45rem;
+        }
+
+        #login-div {
+            margin-bottom: 10px;
+            height: 350px;
+            text-align: center;
+            position: relative;
+            border: rgb(219, 219, 219) 1px solid;
+            border-radius: 1px;
+            padding: 25px 45px;
+        }
+
+        #insta-img {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        #login-form {
+            font-family: inherit;
+            margin-bottom: 10px;
+        }
+
+        .buttons {
+            width: 268px;
+            line-height: 18px;
+            font-family: inherit;
+            font-weight: 600;
+            padding: 7px 16px;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            background-color: rgba(0, 149, 256);
+            opacity: .7;
+        }
+        .inputs {
+            width: 258px;
+            background: rgb(250, 250, 250);
+            border: rgb(219, 219, 219) 1px solid;
+            padding: 9px 0 7px 8px;
+            font-size: 12px;
+            font-family: inherit;
+            outline-color: #c4c4c4;
+            margin-bottom: 5px;
+        }
+
+        .lines {
+            position: relative;
+            top: 0.45em;
+            height: 1px;
+            width: 101px;
+            background-color: rgb(219, 219, 219);
+        }
+
+        #line-word {
+            font-family: inherit;
+            margin-left: 18px;
+            margin-right: 18px;
+            font-size: .8125rem;
+            font-weight: 600;
+            line-height: 1.1538;
+            text-transform: uppercase;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        #background-facebook {
+            display: inline-block;
+            position: relative;
+            top: 3px;
+            height: 16px;
+            width: 16px;
+            background-image: url("facebook_background.png");
+            background-size: cover;
+        }
+        #facebook-button {
+            cursor: pointer;
+            margin-top: 25px;
+            font-family: inherit;
+            font-weight: 600;
+            color: #385185;
+            background: none;
+            border: none;
+        }
+        #forgot-password-link {
+            position: relative;
+            color: rgb(0, 57, 107);
+            font-size: 12px;
+            line-height: 16px;
+            top: 16px;
+        }
+
+        #right-div {
+            font-family: inherit;
+        }
+
+        #new-acc-div {
+            font-family: inherit;
+            border: rgb(219, 219, 219) 1px solid;
+            border-radius: 1px;
+            text-align: center;
+            padding: 15px;
+        }
+        #reg-p {
+            font-size: 14px;
+            text-align: center;
+        }
+        #reg-link {
+            font-family: inherit;
+            color: rgb(0, 149, 256);
+            font-weight: 400;
+        }
+        #download-p {
+            font-family: inherit;
+            line-height: 18px;
+            font-size: 14px;
+            text-align: center;
+        }
+        #download-div {
+            text-align: center;
+        }
+        .down-imgs {
+            height: 40px;
+        }
+        #left-div {
+            background-size: 468.32px 634.15px;
+            height: 581.15px;
+            width: 430px;
+            background-image: url("fixed_insta_img.png");
+            margin-bottom: 12px;
+            align-self: center;
+            margin-right: 32px;
+
+        }
+        #insta-img-back {
+            margin-top: 27px;
+            margin-left: 157px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main-div">
+        <div id="left-div">
+            <div id="insta-img-back">
+                <img src="insta_back_img.png" alt="img">
+            </div>
+        </div>
+        <div id="right-div">
+            <div id="login-div">
+                <img id="insta-img" src="Instagram.png" alt="Instagram"> <br>
+                <form id="login-form">
+                    <input class="inputs" id="login-in-1" type="text" placeholder="Телефон, имя пользователя или эл. адрес"> <br>
+                    <input style="margin-bottom: 15px" class="inputs" type="password" placeholder="Пароль"> <br>
+                    <button class="buttons" name="login" type="submit">Войти</button> <br>
+                </form>
+                <div style="display: flex; flex-direction: row;">
+                    <div class="lines"></div>
+                    <div id="line-word">или</div>
+                    <div class="lines"></div>
+                </div>
+                <button id="facebook-button" type="button">
+                    <span id="background-facebook"></span>
+                    <span >Войти через Facebook</span>
+                </button>
+                <br>
+                <a id="forgot-password-link" href="https://youtube.com">Забыли пароль?</a>
+            </div>
+            <div id="new-acc-div">
+                <p id="reg-p">У вас ещё нет аккаунта? <a id="reg-link" href="/accounts/emailsignup/">Зарегистрироваться</a></p>
+            </div>
+            <p id="download-p">Установите приложение.</p>
+            <div id="download-div">
+                <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D966124BE-6EA3-429B-AC97-BAD4FA9502F8%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge" role="link" target="_blank">
+                    <img class="down-imgs" alt="Скачать с Google Play" src="GooglePlay.png">
+                </a>
+                <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=0%2C0%2C1920%2C1032" role="link" target="_blank">
+                    <img class="down-imgs" alt="Скачать с сайта Microsoft" src="Microsoft.png">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

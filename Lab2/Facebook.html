@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Login Page</title>
+    <style>
+
+        body, html {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        .fb_logo {
+            height: 106px;
+            position: relative;
+            right: 32px;
+        }
+        a {
+            color: #1877f2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        #div1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f2f5;
+            width: 100%;
+            height: 45rem;
+        }
+        #div2 {
+            position: relative;
+            right: 70px;
+            bottom: 70px;
+        }
+        #div3 {
+            position: relative;
+            left: 10px;
+            bottom: 35px;
+            text-align: center;
+        }
+        #div4 {
+            text-align: center;
+            background-color: white;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+            padding: 20px 0 28px;
+            width: 396px;
+            margin-bottom: 25px;
+        }
+        #reg_pages_msg {
+            line-height: 1.34;
+            padding-left: 0;
+            width: 396px;
+        }
+        #reg_pages_link {
+            color: black;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+        }
+        #h2 {
+            position: relative;
+            bottom: 30px;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            font-size: 28px;
+            font-weight: normal;
+            line-height: 32px;
+            width: 500px;
+        }
+        #line {
+            border-bottom: 1px solid #dadde1;
+            margin: 20px 16px;
+            text-align: center;
+        }
+        .buttons {
+            cursor: pointer;
+            margin-bottom: 16px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            font-weight: bold;
+            border-radius: 6px;
+            font-size: 20px;
+            padding: 12px 16px;
+            width: 364px;
+        }
+        .buttons2 {
+            cursor: pointer;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            line-height: 48px;
+            padding: 0 16px;
+            background-color: #42b72a;
+            color: white;
+            font-weight: bold;
+        }
+        .buttons2:hover {
+            background-color: #3fa32a;
+        }
+        .inputs {
+            outline-color: #1877f2;
+            margin-bottom: 16px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 17px;
+            padding: 14px 16px;
+            height: 22px;
+            width: 332px;
+        }
+        input:focus::placeholder {
+            color:darkgray;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="div1">
+        <div id="div2">
+            <img class="fb_logo" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
+            <h2 id="h2">Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</h2>
+        </div>
+        <div id="div3">
+            <div id="div4">
+                <form class="login-form">
+                        <input class="inputs" id="login-in-1" type="text" placeholder="Электронный адрес или номер телефона"> <br>
+                        <input class="inputs" type="password" placeholder="Пароль"> <br>
+
+                    <button class="buttons" name="login" type="submit">Вход</button> <br>
+                    <a href="https://youtube.com">Забыли пароль?</a>
+                </form>
+                <div id="line">
+                </div>
+                <button class="buttons2" name="new account">Создать новый аккаунт</button> <br>
+            </div>
+            <div id="reg_pages_msg">
+                <a id ="reg_pages_link" href="https://youtube.com">Создать Страницу</a> знаменитости, музыкальной группы или компании.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('load', function () {
+            // Получаем ссылку на элемент input
+            var inputElement = document.getElementById('login-in-1');
+
+            if (inputElement) {
+                inputElement.focus();
+            }
+        });
+    </script>
+
+</body>
+</html>
