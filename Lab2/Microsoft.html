@@ -17,7 +17,8 @@
         {
             margin-top: 0.5%;
             margin-bottom: 0.5%;
-            font-size: xx-large;
+            font-size: 1.8rem;
+            font-weight: 600;
         }
         h3
         {
@@ -101,16 +102,28 @@
         .a-product
         {
             width: 24%;
+            cursor: pointer;
+            margin-right: 25px;
+        }
+        .a-product img {
+            width: 380px;
         }
         .a-product a
         {
-            color: rgb(31, 106, 187);
-            font-weight: bold;
+            color: #0067b8;
+            font-weight: 600;
             text-decoration-line: none;
         }
         .a-product a:hover
         {
             text-decoration-line: underline;
+        }
+        .a-product p {
+            font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #000;
         }
     </style>
 </head>
@@ -128,7 +141,9 @@
 
             <a href="">Продукты Майкрософт</a>
             <a href="">Поиск</a>
+            <img style="width: 32px; height: 26px; position:absolute; right: 215px; top:17px" src="poisk.png" alt="no image">
             <a href="">Войти</a>
+            <img style="width: 36px; height: 36px; position:absolute; right: 110px" src="human_plus.svg" alt="no image">
         </div>
     </div>
 
@@ -141,12 +156,6 @@
     </div>
 
     <div id="products">
-        <div class="a-product">
-            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-M365-Icon-Bounce-Word-Merch?wid=380&hei=213&fit=crop">
-            <h2>Microsoft 365</h2>
-            <p>Приложения и функции, которые помогут вам воплотить идеи в реальность, оставаться в безопасности и сосредоточиться на важных вещах в жизни.</p>
-            <a href="">Подробнее</a>
-        </div>
         <div class="a-product">
             <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-MSFT-CP-Edge?wid=380&hei=213&fit=crop">
             <h2>Microsoft Edge</h2>
@@ -164,6 +173,12 @@
             <h2>OneNote</h2>
             <p>Приведите свои заметки и дела в порядок.</p>
             <a href="">Узнать больше</a>
+        </div>
+        <div class="a-product">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-MSCOM-Outlook-iOS-Android?wid=406&hei=230&fit=crop">
+            <h2>Outlook для iOS и Android</h2>
+            <p>Будьте на связи. Организовывайте. Успевайте больше.</p>
+            <a href="">Скачать</a>
         </div>
     </div>
 </div>

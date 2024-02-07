@@ -6,6 +6,7 @@
     <style>
 
         #main-div {
+            padding-top: 30px;
             font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             display: flex;
             align-items: center;
@@ -145,12 +146,95 @@
             margin-bottom: 12px;
             align-self: center;
             margin-right: 32px;
+        }
 
+        @keyframes fade {
+            0% { opacity: 0; }
+            11.11% { opacity: 1; }
+            33.33% { opacity: 1; }
+            44.44% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+
+        .insta-imgs {
+            position: absolute;
+            opacity: 0;
+            animation-name: fade;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
         }
         #insta-img-back {
             margin-top: 27px;
             margin-left: 157px;
+            display: flex;
+        }
+        #insta-img-back img:nth-child(1) { animation-delay: 0s; }
+        #insta-img-back img:nth-child(2) { animation-delay: 4s; }
+        #insta-img-back img:nth-child(3) { animation-delay: 8s; }
+        #insta-img-back img:nth-child(4) {animation-delay: 12s;}
 
+        #footer
+        {
+            font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin-top: 60px;
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        #footer a
+        {
+            font-size: 12px;
+            text-decoration-line: none;
+            color: gray;
+        }
+        #footer p
+        {
+            margin: 0;
+            font-size: 12px;
+            text-decoration-line: none;
+            color: gray;
+        }
+        #links
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        #from-meta
+        {
+            background-color: transparent;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #from-meta p
+        {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        select {
+            margin-top: 3px;
+            -webkit-appearance: none;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            cursor: pointer;
+            border: none;
+            background-color: #fff;
+            color: gray;
+            overflow: visible;
+        }
+        option {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            color: gray;
+        }
+        #links a {
+            margin-right: 15px;
         }
 
     </style>
@@ -159,7 +243,10 @@
     <div id="main-div">
         <div id="left-div">
             <div id="insta-img-back">
-                <img src="insta_back_img.png" alt="img">
+                <img class="insta-imgs" src="insta_back_img1.png" alt="img">
+                <img class="insta-imgs" src="insta_back_img2.png" alt="img">
+                <img class="insta-imgs" src="insta_back_img3.png" alt="img">
+                <img class="insta-imgs" src="insta_back_img4.png" alt="img">
             </div>
         </div>
         <div id="right-div">
@@ -194,6 +281,33 @@
                     <img class="down-imgs" alt="Скачать с сайта Microsoft" src="Microsoft.png">
                 </a>
             </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="links">
+            <a href="">Meta</a>
+            <a href="">Информация</a>
+            <a href="">Блог</a>
+            <a href="">Вакансии</a>
+            <a href="">Помощь</a>
+            <a href="">API</a>
+            <a href="">Конфиденциальность</a>
+            <a href="">Условия</a>
+            <a href="">Места</a>
+            <a href="">Instagram Lite</a>
+            <a href="">Threads</a>
+            <a href="">Загрузка контактов и лица, не являющиеся пользователями</a>
+            <a href="">Meta Verified</a>
+        </div>
+        <div id="from-meta">
+            <select aria-label="Choose language">
+                <option value="ru">Русский</option>
+                <option value="en-gb">English (UK)</option>
+                <option value="es-la">Español</option>
+                <option value="tr">Türkçe</option>
+            </select>
+            <p>© 2024 Instagram from Meta</p>
         </div>
     </div>
 </body>
