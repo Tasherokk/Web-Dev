@@ -25,7 +25,7 @@ import { HousingService } from '../housing.service';
       </app-housing-location>
     </section>
   `,
-  styleUrl: './home.component.css'
+  styleUrl: './product.component.css'
 })
 export class HomeComponent {
   readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';

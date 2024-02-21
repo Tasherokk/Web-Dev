@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {HomeComponent} from "./home/home.component";
+import {ProductsComponent} from "./products/products.component";
 import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent, RouterModule,],
+  imports: [RouterOutlet, ProductsComponent, RouterModule,],
   template: `
     <main>
       <a [routerLink]="['/']">
       <header class="brand-name">
-        <img style="width: 100px" class="brand-logo" src="https://svgsilh.com/svg/158939.svg" alt="logo" aria-hidden="true">
+        <img style="width: 100px" class="brand-logo" src="https://www.ecomva.com/wp-content/uploads/2023/02/Group-7182.png" alt="logo" aria-hidden="true">
       </header>
       </a>
       <section class="content">
@@ -22,5 +22,5 @@ import { RouterModule } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'homes';
+  title = 'products';
 }

@@ -2,103 +2,83 @@
   "locations": [
     {
       "id": 0,
-      "name": "Acme Fresh Start Housing",
-      "city": "Chicago",
-      "state": "IL",
-      "photo": "https://angular.io/assets/images/tutorials/faa/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
-      "availableUnits": 4,
-      "wifi": true,
-      "laundry": true
+      "name": "Apple Power Adapter",
+      "description": "20W, USB-C, белый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h95/h0e/63961934823454.jpg?format=gallery-large",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=750000000"
     },
     {
       "id": 1,
-      "name": "A113 Transitional Housing",
-      "city": "Santa Monica",
-      "state": "CA",
-      "photo": "https://angular.io/assets/images/tutorials/faa/brandon-griggs-wR11KBaB86U-unsplash.jpg",
-      "availableUnits": 0,
-      "wifi": false,
-      "laundry": true
+      "name": "Apple iPhone 13",
+      "description": "128Gb, Midnight, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h32/h70/84378448199710.jpg?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/apple-iphone-13-128gb-midnight-chernyi-102298404/?c=750000000"
     },
     {
       "id": 2,
-      "name": "Warm Beds Housing Support",
-      "city": "Juneau",
-      "state": "AK",
-      "photo": "https://angular.io/assets/images/tutorials/faa/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg",
-      "availableUnits": 1,
-      "wifi": false,
-      "laundry": false
+      "name": "Xiaomi Redmi 12",
+      "description": "4G, 8 ГБ/256 ГБ, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h75/hbc/81335343775774.png?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/xiaomi-redmi-12-4g-8-gb-256-gb-chernyi-110918152/?c=750000000"
     },
     {
       "id": 3,
-      "name": "Homesteady Housing",
-      "city": "Chicago",
-      "state": "IL",
-      "photo": "https://angular.io/assets/images/tutorials/faa/ian-macdonald-W8z6aiwfi1E-unsplash.jpg",
-      "availableUnits": 1,
-      "wifi": true,
-      "laundry": false
+      "name": "Apple iPhone 15 Pro Max",
+      "description": "256Gb, серый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/hc1/h65/83559848181790.png?format=preview-large",
+      "rating": 4.9,
+      "link": "https://kaspi.kz/shop/p/apple-iphone-15-pro-max-256gb-seryi-113138420/?c=750000000"
     },
     {
       "id": 4,
-      "name": "Happy Homes Group",
-      "city": "Gary",
-      "state": "IN",
-      "photo": "https://angular.io/assets/images/tutorials/faa/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
-      "availableUnits": 1,
-      "wifi": true,
-      "laundry": false
+      "name": "Apple Power Adapter",
+      "description": "20W, USB-C, Lightning 1 м",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h84/hd8/64039078559774.jpg?format=preview-large",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-apple-usb-c---lightning-1-m-101103131/?c=750000000"
     },
     {
       "id": 5,
-      "name": "Hopeful Apartment Group",
-      "city": "Oakland",
-      "state": "CA",
-      "photo": "https://angular.io/assets/images/tutorials/faa/r-architecture-JvQ0Q5IkeMM-unsplash.jpg",
-      "availableUnits": 2,
-      "wifi": true,
-      "laundry": true
+      "name": "Apple iPhone 14",
+      "description": "128Gb, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h98/h2b/64400497737758.jpg?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/apple-iphone-14-128gb-chernyi-106363023/?c=750000000"
     },
     {
       "id": 6,
-      "name": "Seriously Safe Towns",
-      "city": "Oakland",
-      "state": "CA",
-      "photo": "https://angular.io/assets/images/tutorials/faa/phil-hearing-IYfp2Ixe9nM-unsplash.jpg",
-      "availableUnits": 5,
-      "wifi": true,
-      "laundry": true
+      "name": "Samsung Galaxy A24",
+      "description": "6 ГБ/128 ГБ, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/hdc/h12/80750151303198.jpg?format=preview-large",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/samsung-galaxy-a24-6-gb-128-gb-chernyi-110343531/?c=750000000"
     },
     {
       "id": 7,
-      "name": "Hopeful Housing Solutions",
-      "city": "Oakland",
-      "state": "CA",
-      "photo": "https://angular.io/assets/images/tutorials/faa/r-architecture-GGupkreKwxA-unsplash.jpg",
-      "availableUnits": 2,
-      "wifi": true,
-      "laundry": true
+      "name": "Apple iPhone 13",
+      "description": "128Gb, белый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/hc9/h90/64209083007006.jpg?format=preview-large",
+      "rating": 5.0,
+      "link": "https://kaspi.kz/shop/p/apple-iphone-13-128gb-belyi-102298420/?c=750000000"
     },
     {
       "id": 8,
-      "name": "Seriously Safe Towns",
-      "city": "Oakland",
-      "state": "CA",
-      "photo": "https://angular.io/assets/images/tutorials/faa/saru-robert-9rP3mxf8qWI-unsplash.jpg",
-      "availableUnits": 10,
-      "wifi": false,
-      "laundry": false
+      "name": "Apple iPhone 15",
+      "description": "128Gb, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/he2/h1d/83559338442782.png?format=preview-large",
+      "rating": 4.9,
+      "link": "https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?c=750000000"
     },
     {
       "id": 9,
-      "name": "Capital Safe Towns",
-      "city": "Portland",
-      "state": "OR",
-      "photo": "https://angular.io/assets/images/tutorials/faa/webaliser-_TPTXZd9mOo-unsplash.jpg",
-      "availableUnits": 6,
-      "wifi": true,
-      "laundry": true
+      "name": "Ala case",
+      "description": "для iPhone 11, прозрачный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/he5/hb3/64408556175390.jpg?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/ala-case-dlja-iphone-11-prozrachnyi-103661424/?c=750000000"
     }
   ]
 }
