@@ -1,0 +1,12 @@
+<section class="listing">
+  <div class="listing-div">
+    <img class="listing-photo" [src]="product.photo" alt="Exterior photo of {{product.name}}">
+  </div>
+  <h2 class="listing-heading">{{ product.name }}</h2>
+  <p class="listing-description">{{ product.description}}</p>
+  <p class="listing-rating">{{ product.rating}}</p>
+  <span (click)="putLike()" class="listing-likes">🩷</span> <span class="listing-likes-number">Likes: {{product.likes}}</span>  <br>
+  <a class="listing-learn-more" href="{{product.link}}}">Learn More</a>
+  <button type="button" (click)="share()" class="listing-share">♾Share</button>
+  <button type="button" (click)="onRemove()" class="listing-remove">🗑Remove</button>
+</section>

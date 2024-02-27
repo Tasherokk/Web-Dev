@@ -1,0 +1,5 @@
+<section class="results">
+  <app-product *ngFor="let product of productsList"
+               [product]="product" (remove)="removeChild($event)">
+  </app-product>
+</section>

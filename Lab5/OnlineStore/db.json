@@ -1,0 +1,208 @@
+{
+  "categories" : [
+    {
+      "id": 1,
+      "name": "Smartphones"
+    },
+    {
+      "id": 2,
+      "name": "Phone Accessories"
+    },
+    {
+      "id": 3,
+      "name": "Laptops"
+    },
+    {
+      "id": 4,
+      "name": "Tablets"
+    }
+  ],
+  "Smartphones": [
+    {
+      "id": 1,
+      "name": "Xiaomi Redmi 12",
+      "description": "4G, 8 ГБ/256 ГБ, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h75/hbc/81335343775774.png?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/xiaomi-redmi-12-4g-8-gb-256-gb-chernyi-110918152/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "Apple iPhone 14",
+      "description": "128Gb, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h98/h2b/64400497737758.jpg?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/apple-iphone-14-128gb-chernyi-106363023/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy A24",
+      "description": "6 ГБ/128 ГБ, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/hdc/h12/80750151303198.jpg?format=preview-large",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/samsung-galaxy-a24-6-gb-128-gb-chernyi-110343531/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "name": "Apple iPhone 13",
+      "description": "128Gb, белый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/hc9/h90/64209083007006.jpg?format=preview-large",
+      "rating": 5.0,
+      "link": "https://kaspi.kz/shop/p/apple-iphone-13-128gb-belyi-102298420/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 5,
+      "name": "Apple iPhone 15",
+      "description": "128Gb, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/he2/h1d/83559338442782.png?format=preview-large",
+      "rating": 4.9,
+      "link": "https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?c=750000000",
+      "likes": 0
+    }
+  ],
+  "Phone Accessories": [
+    {
+      "id": 1,
+      "name": "Apple Power Adapter",
+      "description": "20W, USB-C, белый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h95/h0e/63961934823454.jpg?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "Ala case",
+      "description": "iPhone 11, прозрачный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/he5/hb3/64408556175390.jpg?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/ala-case-dlja-iphone-11-prozrachnyi-103661424/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi Redmi Power Bank",
+      "description": "20000 мАч, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h34/h07/63928978014238.jpg?format=preview-large",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/xiaomi-redmi-power-bank-20000-mach-chernyi-100322086/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "name": "Кабель Samsung",
+      "description": "USB Type-C - USB Type-C, 1м, EP",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h5f/hb1/63860748091422.jpg?format=preview-large",
+      "rating": 5.0,
+      "link": "https://kaspi.kz/shop/p/kabel-samsung-usb-type-c---usb-type-c-1-m-ep-da705bbrgru-100498980/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 5,
+      "name": "OEM",
+      "description": "Apple iPhone, 11 розовый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h1f/h48/63942720684062.jpg?format=preview-large",
+      "rating": 5.0,
+      "link": "https://kaspi.kz/shop/p/oem-dlja-apple-iphone-11-rozovyi-100508681/?c=750000000",
+      "likes": 0
+    }
+  ],
+  "Laptops": [
+    {
+      "id": 1,
+      "name": "Apple MacBook Air 13",
+      "description": "MGN93, серебристый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h9a/h35/64082972704798.jpg?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/apple-macbook-air-13-mgn93-serebristyi-100798912/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "Apple MacBook Air 13",
+      "description": "MGN63, серый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h73/h87/63947822596126.jpg?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/apple-macbook-air-13-mgn63-seryi-100797845/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "ASUS TUF Gaming F15",
+      "description": "FX507ZC4-HN143, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h5d/h8e/83606463807518.jpg?format=preview-large",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/asus-tuf-gaming-f15-fx507zc4-hn143-chernyi-113186739/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "name": "ASUS TUF Gaming F15",
+      "description": "90NR0724-M00ZU0, черный",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/hd7/h75/84526795292702.jpg?format=preview-large",
+      "rating": 5.0,
+      "link": "https://kaspi.kz/shop/p/asus-tuf-gaming-f15-90nr0724-m00zu0-chernyi-114696615/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 5,
+      "name": "Chuwi GemiBook XPro",
+      "description": "8G/256G, серый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/hc4/h7e/81272592072734.jpg?format=preview-large",
+      "rating": 5.0,
+      "link": "https://kaspi.kz/shop/p/chuwi-gemibook-xpro-8g-256g-seryi-110855868/?c=750000000",
+      "likes": 0
+    }
+  ],
+  "Tablets": [
+    {
+      "id": 1,
+      "name": "Apple iPad 2021",
+      "description": "Wi-Fi, 10.2 дюйм, 4 Гб/64 Гб, серебристый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h7e/h90/64072646492190.jpg?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/apple-ipad-2021-wi-fi-10-2-djuim-4-gb-64-gb-serebristyi-102301731/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy Tab A7 Lite",
+      "description": "SM-T220, 8.7 дюйм, 3 Гб/32 Гб",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/hc3/h05/64045775290398.jpg?format=preview-large",
+      "rating": 4.8,
+      "link": "https://kaspi.kz/shop/p/samsung-galaxy-tab-a7-lite-sm-t220-8-7-djuim-3-gb-32-gb-seryi-101785591/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi Pad 6",
+      "description": "11 дюйм, 8 Гб/256 Гб, серый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/h32/hdc/82729741582366.jpg?format=preview-large",
+      "rating": 4.7,
+      "link": "https://kaspi.kz/shop/p/xiaomi-pad-6-11-djuim-8-gb-256-gb-seryi-112453226/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "name": "Xiaomi Redmi Pad SE",
+      "description": "11 дюйм, 4 Гб/128 Гб, серый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/hb4/hb6/82720277397534.jpg?format=preview-large",
+      "rating": 5.0,
+      "link": "https://kaspi.kz/shop/p/xiaomi-redmi-pad-se-11-djuim-4-gb-128-gb-seryi-112442987/?c=750000000",
+      "likes": 0
+    },
+    {
+      "id": 5,
+      "name": "Apple iPad Air 2022",
+      "description": "Wi-Fi, 10.9 дюйм, 8 Гб/64 Гб, серый",
+      "photo": "https://resources.cdn-kaspi.kz/img/m/p/hff/h81/64382011146270.jpg?format=preview-large",
+      "rating": 5.0,
+      "link": "https://kaspi.kz/shop/p/apple-ipad-air-2022-wi-fi-10-9-djuim-8-gb-64-gb-seryi-104235453/?c=750000000",
+      "likes": 0
+    }
+  ]
+}

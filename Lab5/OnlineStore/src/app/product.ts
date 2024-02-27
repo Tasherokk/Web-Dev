@@ -1,0 +1,9 @@
+export interface Product {
+  id: number;
+  name: string;
+  description: string;
+  rating: number;
+  photo: string;
+  link: string;
+  likes: bigint;
+}
