@@ -13,15 +13,15 @@ export class AlbumsService {
   BASE_URl = "https://jsonplaceholder.typicode.com/albums";
   constructor(private httpClient: HttpClient) { }
 
-  getAlbums():Observable<Album[]> {
+  getAlbums() : Observable<Album[]> {
     return this.httpClient.get<Album[]>(`${this.BASE_URl}`)
   }
 
-  getAlbum(id:number){
+  getAlbum(id:number) : Observable<Album>{
     return this.httpClient.get<Album>(`${this.BASE_URl}/${id}`);
   }
 
-  getPhotos(albumId: number){
+  getPhotos(albumId: number) : Observable<Photo[]> {
     return this.httpClient.get<Photo[]>(`${this.BASE_URl}/${albumId}/photos`);
   }
 
