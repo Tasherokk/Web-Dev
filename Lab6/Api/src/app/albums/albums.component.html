@@ -1,0 +1,15 @@
+<button class="back-button" type="button" routerLink="/home"> Back </button>
+
+<div *ngIf="loaded">
+  <ul>
+    <li *ngFor="let album of albums">
+      <a [routerLink]="['/album', album.id]">{{album.id}}) {{album.title}}</a>
+      <button class="delete-button" type="button" (click)="deleteAlbum(album)"> Delete </button>
+    </li>
+  </ul>
+</div>
+
+<div class="ring" *ngIf="!loaded">
+  Loading <span></span>
+</div>
+

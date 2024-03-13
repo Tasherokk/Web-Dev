@@ -1,0 +1,18 @@
+
+<button class="back-button" type="button" routerLink="/albums"> Back </button>
+
+<div class="info" *ngIf="loaded">
+  <h2>Album #{{album.id}} </h2>
+  <h3>Title: {{album.title}} </h3>
+  <div class="title">
+    <input type="text" placeholder="Type album's title" #change>
+    <button class="save-button" type="button" (click)="changeTitle(change.value)">Save</button>
+  </div>
+  <div class="link">
+    <a routerLink="/album/{{album.id}}/photos">Photos</a>
+  </div>
+</div>
+
+<div class="ring" *ngIf="!loaded">
+  Loading <span></span>
+</div>

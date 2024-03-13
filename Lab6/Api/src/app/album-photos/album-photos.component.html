@@ -1,0 +1,9 @@
+<button class = "back-button" type="button" [routerLink]="['/album', this.photos?.at(0)?.albumId ]"> Back </button>
+
+<div class="photos" *ngIf="loaded">
+  <img *ngFor="let photo of photos" src="{{photo.url}}" alt="Photo of album">
+</div>
+
+<div class="ring" *ngIf="!loaded">
+  Loading <span></span>
+</div>
