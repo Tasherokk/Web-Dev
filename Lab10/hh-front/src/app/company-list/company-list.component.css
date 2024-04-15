@@ -1,0 +1,63 @@
+
+
+body {
+  background: #222;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.top {
+  position: relative;
+  height: 10px;
+  background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 4vw;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.company {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.company a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.company a:hover {
+  color: #007bff;
+}
+
+.company h3 {
+  margin-top: 5px;
+  color: #666;
+}
+
+.company p {
+  margin-top: 10px;
+  color: #888;
+}

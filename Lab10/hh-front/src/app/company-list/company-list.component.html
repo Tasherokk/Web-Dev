@@ -1,0 +1,14 @@
+<body>
+  <div class='top'></div>
+    <div class='header'>
+      <h1>Компании</h1>
+  </div>
+</body>
+
+<ul>
+  <li class="company" *ngFor="let company of companies">
+    <a [routerLink]="['/companies', company.id]">{{ company.name }}</a>
+    <h3>{{company.city}}</h3>
+    <p>{{company.description}}</p>
+  </li>
+</ul>

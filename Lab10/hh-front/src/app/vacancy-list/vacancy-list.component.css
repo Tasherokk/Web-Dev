@@ -1,0 +1,57 @@
+
+
+body {
+  background: #222;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.top {
+  position: relative;
+  height: 10px;
+  background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 4vw;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+
+/* Vacancy List Styles */
+.vacancy {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.vacancy:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vacancy h3 {
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.vacancy p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 5px;
+}
